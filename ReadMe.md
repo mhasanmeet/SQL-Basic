@@ -1,4 +1,4 @@
-# SQL Basics
+## SQL Basics
 
 ## SQL Command Types
 
@@ -52,10 +52,15 @@
 
 Here SQL all diagram
 
-![diagram](diagram.png)
+![diagram](./images/diagram.png)
 
 ## SQL Join
 
 Here SQL all Join query diagram
 
-![join](join.png)
+![join](./images/join.png)
+![Join Types](./images/MySQL-join-types.png)
+
+## Online SQL learning resources
+
+1. [SQL Bolt](https://sqlbolt.com/)
