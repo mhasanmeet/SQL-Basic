@@ -1,66 +1,7 @@
 ## SQL Basics
+Structured Query Language is an important DB language for MySQL, Postgres, Oracle for Relational Database program. SQL is widely used in PHP based backed web development. In here We document about SQL language for absolute beginners. 
 
-## SQL Command Types
+## Tools
 
-### DDL 
-
-<details>
-<summary>Data Definition Language</summary>
-
-* Create
-* Alter
-* Drop
-* Rename
-* Insert
-* Update
-* Delete
-* Merge
-* Truncate
-
-</details>
-
-### DCL 
-
-<details>
-<summary>Data Control Language</summary>
-
-* Grant
-* Revoke
-
-</details>
-
-### DQL 
-
-<details>
-<summary>Data Query Language</summary>
-
-* Select
-
-</details>
-
-### DML 
-
-<details>
-<summary>Data Manipulation Language</summary>
-
-* Insert
-* Update
-* Delete
-* Merge
-
-</details>
-
-Here SQL all diagram
-
-![diagram](./images/diagram.png)
-
-## SQL Join
-
-Here SQL all Join query diagram
-
-![join](./images/join.png)
-![Join Types](./images/MySQL-join-types.png)
-
-## Online SQL learning resources
-
-1. [SQL Bolt](https://sqlbolt.com/)
+1. [Arctype - The SQL client and database management tool](https://arctype.com/)
+2. [PHPMyAdmin - A good for local machine for exercise mysql db](https://www.phpmyadmin.net/)
