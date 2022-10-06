@@ -78,6 +78,21 @@ SQL Data Rule Method also called constrains.
 * CHECK 
 * DEFAULT
 * AUTO_INCREMENT
+* REFERENCES
+
+## sql wildcards
+* *
+* %X
+* %X%
+* ____X%
+* %X__
+
+## sql operators
+* UNION
+
+## sql Trigger
+
+## entity relationship diagram (ER Diagram)
 
 
 ------

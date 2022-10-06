@@ -27,7 +27,7 @@ SELECT * FROM students WHERE sex = "M";
 SELECT * FROM students WHERE id = 101;
 
 -- Find the things from students between birth year 2000 and 2010
-SELECT * FROM students WHERE birthyear BETWEEN 2000 AND 2010;
+SELECT * FROM students WHERE birthday BETWEEN 2000 AND 2010;
 
 -- Find the things from students birth year not between 2000 and 2010
 SELECT * FROM students WHERE year NOT BETWEEN 2000 AND 2010;
@@ -38,14 +38,12 @@ SELECT name FROM students WHERE name IN ("Mahmudul", "Mehrin");
 -- narrow down condition with multiple conditon
 SELECT * FROM students WHERE sex IN ("M", "F") AND gpa > 3;
 
--- (%) Used anywhere in a string to match a numbers Character (0-9) (only with LIKE or NOT LIKE)
--- Find name md alike from students table
-SELECT name FROM students WHERE name LIKE "md%";
-
 -- NOT query
 SELECT name FROM students WHERE name != "karim";
 
--- (_)Used anywhere in a string to match a single String character (only with LIKE or NOT LIKE)
--- Find Store-A, Store-B, Store-C from Table
-SELECT name FROM students WHERE name LIKE "name-_";
+-- List by Ascending Order (ASC) with DISTINCT values (discard duplicates value)
+SELECT DISTINCT gpa FROM students ORDER BY gpa ASC;
+
+-- List last 4 things from students with most recent years with descending order
+SELECT * FROM students ORDER BY birthday DESC LIMIT 4;
 

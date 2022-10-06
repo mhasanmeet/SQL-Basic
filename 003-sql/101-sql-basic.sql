@@ -8,8 +8,8 @@ CREATE DATABASE dbname;
 CREATE TABLE student(
     id INT PRIMARY KEY,
     name VARCHAR(20),
-    sex TEXT(1),
-    birthyear DATE,
+    sex VARCHAR(1),
+    birthday DATE,
     sid VARCHAR(10)
 );
 
@@ -19,16 +19,16 @@ CREATE TABLE IF NOT EXISTS student(
 );
 
 -- insert data into table name student
-INSERT INTO student(id, name, sex, birthyear, sid) 
-VALUES ("101", "mahmudul", "M", "1995-04-17", "1000023239"); -- OR
+INSERT INTO student(id, name, sex, birthday, sid) 
+VALUES ("101", "mahmudul", "M", "1995-04-17", "1000000001"); -- OR
 
-INSERT INTO student VALUES("101", "mahmudul", "M", "1995-04-17", "1000023239");
+INSERT INTO student VALUES("101", "mahmudul", "M", "1995-04-17", "1000000001");
 
 -- insert multiple values
 INSERT INTO student VALUES
-    ("101", "mahmudul", "M", "1995-04-17", "1000023239"),
-    ("102", "kazi", "M", "1998-04-17", "1000023249"),
-    ("103", "Mehrin", "F", "2000-04-17", "1000023299");
+    ("101", "mahmudul", "M", "1995-04-17", "1000000001"),
+    ("102", "kazi", "M", "1998-04-17", "1000000003"),
+    ("103", "Mehrin", "F", "2000-04-17", "1000000004");
 
 -- Add a column into table student
 ALTER TABLE student ADD gpa DECIMAL(3,2);
