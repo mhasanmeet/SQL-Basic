@@ -51,11 +51,33 @@ Foreign is a unique identification and unique data between two or more table.
 * Composite Key 
 Composite key is a key build with two column. 
 
-## Common SQL Property Types
+## Common SQL Data types
 
-* INT - Integer Number
-* DECIMAL(10,4) - Decimal Numbers. Here (10,4) means there may 10 total decimal numbers and 4 have after decimal numbers, like `1092827289.0000`
-* VARCHAR(5) -VARCHAR means variable character
+* INT - Integer is a Numeric Data Types. INT have maximum values of 2147483647, so you can not put value more than this. Like 5502374473 is not accepted value for int and give us an error. for nid or phone better practice is to use String VARCHAR datatype.
+
+* DECIMAL(10,4) - Decimal is a Numeric Data Types. Here (10,4) means there may 10 total decimal numbers and 4 have after decimal numbers, like `1092827289.0000`
+
+* VARCHAR(5) - VARCHAR is a String Data Types. VARCHAR means variable character, Here It (5) means it can store max 5 characters
+
+* BLOB - BLOB is a String Data Types. BLOB means Binary Large Object, Store Images or big objects
+
+* DATE - Date is a datetime data type. Date data type structure 'YYYY-MM-DD'
+
+* TIMESTAMP - TimeStamp is a datetime data type. It's structure is - 'YYYY-MM-DD HH:MM:SS'
+
+* TEXT - Text is a String Data Types. Text is for text, where we can store only text character.
+
+## SQL Data Rule Methods
+SQL Data Rule Method also called constrains.
+
+* NOT NULL
+* NULL
+* UNIQUE
+* DESC
+* ASC
+* CHECK 
+* DEFAULT
+* AUTO_INCREMENT
 
 
 ------

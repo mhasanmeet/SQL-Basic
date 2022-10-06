@@ -5,3 +5,10 @@ Structured Query Language is an important DB language for MySQL, Postgres, Oracl
 
 1. [Arctype - The SQL client and database management tool](https://arctype.com/)
 2. [PHPMyAdmin - A good tool for local machine for exercise mysql db](https://www.phpmyadmin.net/)
+
+
+----
+Credit
+1. Oracle
+2. FreeCodeCamp
+3. Devsonket
