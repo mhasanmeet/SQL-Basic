@@ -1,5 +1,5 @@
-## SQL
-SQL stands for Structured Query Language, use in Relational Based Database like MySQL, SQL Server, Oracle, Postgres and others. 
+# SQL
+SQL stands for Structured Query Language, which is used in Relational-Based Databases like MySQL, SQL Server, Oracle, Postgres, and others. 
 
 ## What SQL can do?
 
@@ -7,6 +7,9 @@ SQL stands for Structured Query Language, use in Relational Based Database like 
 * SQL can retrieve data, insert, Update, Delete, Create Data to Database, also can create new Database, create table and delete table in Database and many more
 
 Though SQL major commands like `SELECT`, `UPDATE`, `DELETE`, `INSERT`, `WHERE` is same in all Relational Database system like in MySQL, Oracle, Postgres but almost all have their own different commands and extensions. 
+
+## Case Sensitivity
+SQL like MySQL, is case-insensitive. BOOKS and books is the same thing in MySQL. 
 
 ## SQL Command Types
 SQL have 4 types of command or language, together they build SQL. They're
@@ -93,7 +96,6 @@ SQL Data Rule Method also called constrains.
 ## sql Trigger
 
 ## entity relationship diagram (ER Diagram)
-
 
 ------
 Credit
