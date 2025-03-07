@@ -84,11 +84,11 @@ SQL Data Rule Method also called constrains.
 * REFERENCES
 
 ## sql wildcards
-* *
-* %X
-* %X%
-* ____X%
-* %X__
+* `*`
+* `%X`
+* `%X%`
+* `____X%`
+* `%X__`
 
 ## sql operators
 * UNION
